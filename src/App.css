@@ -7,7 +7,7 @@ body {
 }
 
 .wrapper {
-  background: linear-gradient(to right, #e67e22, #e74c3c);
+  background: linear-gradient(to right, #4150ad, #b3a1d1);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -16,15 +16,14 @@ body {
 
 .main {
   height: 90vh;
-  background: #fff;
+  background-color: transparent;
   box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
-  width: 80%;
   margin: 0 auto;
 }
 
 .title-container {
   height: 90vh;
-  background: url("img/bg.jpg") center center no-repeat;
+  background: url("img/bg1.jpg") center center no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -49,16 +48,17 @@ body {
 }
 
 .form-container {
-  background-color: #2c3e50;
+  background-color: #FFFFFF;
   height: 90vh;
   padding-top: 100px;
   padding-left: 50px;
 }
 
+
 input[type="text"] {
   background-color: transparent;
   border: 0;
-  border-bottom: solid 1px #f16051;
+  border-bottom: solid 1px #4150ad;
   width: 30%;
   padding-bottom: 4px;
   color: #fff !important;
@@ -74,8 +74,8 @@ input[type="text"] {
 }
 
 input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
-    -webkit-text-fill-color: #fff !important;
+    -webkit-box-shadow: 0 0 0 30px #FFFFFF inset;
+    -webkit-text-fill-color: #000000 !important;
 }
 
 button {
@@ -87,7 +87,7 @@ button {
   letter-spacing: 1px;
   font-size: 15px;
   cursor: pointer;
-  background-color: #f16051;
+  background-color: #4150ad;
   color: #fff;
   font-weight: 100;
 }
@@ -104,8 +104,8 @@ button:active {
 }
 
 .weather__key {
-  color: #f16051;
-  border-bottom: solid 2px rgba(255,255,255,0.06);
+  color: #000000;
+  border-bottom: solid 2px #4150ad;
   padding: 20px 0 20px 0;
   font-weight: 400;
 }
@@ -115,7 +115,7 @@ button:active {
 }
 
 .weather__value {
-  color: #fff;
+  color: #000000;
   font-weight: 200;
 }
 
