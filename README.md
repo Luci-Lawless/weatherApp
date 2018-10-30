@@ -1,1 +1,1 @@
-App to get weather forecast with openweathermap API.
+React.js app to get weather forecast with openweathermap API.
